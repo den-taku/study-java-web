@@ -3,7 +3,7 @@ package one;
 import java.util.List;
 import java.util.Arrays;
 
-public class Main {
+public class Cities {
     public static void main(String[] args) {
         List<String> cities = Arrays.asList("Albany", "Boulder", "Chicago", "Denver", "Eugene");
 
