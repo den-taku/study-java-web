@@ -32,4 +32,9 @@ public class ProfileTest {
         boolean matches = profile.matches(criteria);
         assertTrue(matches);
     }
+
+    @Test
+    public void floatIsClose() {
+        assertThat(2.32 * 3, org.hamcrest.number.IsCloseTo.closeTo(6.96, 0.0005));
+    }
 }
