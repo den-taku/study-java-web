@@ -1,10 +1,8 @@
-package test.java.introduction;
+package introduction;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.junit.*;
-
-import main.java.introduction.ScoreCollection;
 
 public class ScoreCollectionTest {
 
